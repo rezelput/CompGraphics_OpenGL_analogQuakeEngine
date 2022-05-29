@@ -1,0 +1,29 @@
+﻿cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  world.cpp
+D:\Project\3dEngineOpenGL\src\world.cpp(84,41): warning C4305: аргумент: усечение из "double" в "float"
+  winmain.cpp
+D:\Project\3dEngineOpenGL\src\winmain.cpp(14,5): warning C4007: WinMain: должен быть "__stdcall"
+  texture.cpp
+  terrain.cpp
+  simpengine.cpp
+  nivel.cpp
+D:\Project\3dEngineOpenGL\src\nivel.cpp(297,15): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Project\3dEngineOpenGL\src\nivel.cpp(316,15): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Project\3dEngineOpenGL\src\nivel.cpp(317,15): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Project\3dEngineOpenGL\src\nivel.cpp(318,15): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Project\3dEngineOpenGL\src\nivel.cpp(355,15): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Project\3dEngineOpenGL\src\nivel.cpp(371,6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\3dEngineOpenGL\src\nivel.cpp(374,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\3dEngineOpenGL\src\nivel.cpp(378,6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\3dEngineOpenGL\src\nivel.cpp(381,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  md2.cpp
+D:\Project\3dEngineOpenGL\src\md2.cpp(166,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\3dEngineOpenGL\src\md2.cpp(269,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  entity.cpp
+  engine.cpp
+  Создание кода...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1371,5): warning MSB8012: TargetPath(D:\Project\3dEngineOpenGL\Debug\3dEngineOpenGL.exe) не соответствует значению свойства выходного файла (D:\Project\3dEngineOpenGL\Debug\BankaiSimple.exe) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1373,5): warning MSB8012: TargetName(3dEngineOpenGL) не соответствует значению свойства выходного файла (BankaiSimple) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+  LINK : не найден или не выполнена сборка .\Debug\BankaiSimple.exe при последней инкрементной компоновке; выполняется полная компоновка
+audio.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+  3dEngineOpenGL.vcxproj -> D:\Project\3dEngineOpenGL\Debug\3dEngineOpenGL.exe
